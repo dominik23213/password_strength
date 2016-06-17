@@ -1,2 +1,3 @@
 # password_strength
 Test Your Password
+Code have not jQuery code for now. In progress...
