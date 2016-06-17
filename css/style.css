@@ -1,0 +1,48 @@
+html {
+  font-size: 24px; }
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0; }
+
+input {
+  border: 1px solid #c7c8ca;
+  border-radius: 2px;
+  padding: 5px 10px;
+  width: 250px; }
+
+#wrapper {
+  font-family: open sans;
+  margin: 2rem;
+  padding: 2rem;
+  border: 1px solid #bbbbbb;
+  background: #f9f9fa; }
+  #wrapper .dx-graph {
+    height: 8px;
+    float: left;
+    border: 1px solid #c7c8ca;
+    width: 250px;
+    padding: 1px;
+    margin-top: 15px; }
+    #wrapper .dx-graph > span {
+      display: block;
+      width: 10%;
+      height: 8px;
+      border: 1px solid #fff;
+      float: left;
+      box-sizing: border-box; }
+      #wrapper .dx-graph > span.s1, #wrapper .dx-graph > span.s2 {
+        background: #f06868; }
+      #wrapper .dx-graph > span.s3, #wrapper .dx-graph > span.s4 {
+        background: #f08568; }
+      #wrapper .dx-graph > span.s5, #wrapper .dx-graph > span.s6 {
+        background: #ffc791; }
+      #wrapper .dx-graph > span.s7, #wrapper .dx-graph > span.s8 {
+        background: #ffe478; }
+      #wrapper .dx-graph > span.s9, #wrapper .dx-graph > span.s10 {
+        background: #b2df78; }
+  #wrapper .dx-desc-graph {
+    font-size: 0.6rem;
+    padding-left: 20px; }
+
+/*# sourceMappingURL=style.css.map */
