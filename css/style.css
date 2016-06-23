@@ -11,6 +11,9 @@ input {
   padding: 5px 10px;
   width: 250px; }
 
+.hidden {
+  visibility: hidden; }
+
 #wrapper {
   font-family: open sans;
   margin: 2rem;
