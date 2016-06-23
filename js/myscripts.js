@@ -26,80 +26,11 @@ $(document).ready(function(){
 
         $(".dx-graph > span").hide();
 
-        if( strength == 1 ) {
-            $(".s1").show();
-        }
-        if( strength == 2 ) {
-            $(".s1").show();
-            $(".s2").show();
-        }
-        if( strength == 3 ) {
-            $(".s1").show();
-            $(".s2").show();
-            $(".s3").show();
-        }
-        if( strength == 4 ) {
-            $(".s1").show();
-            $(".s2").show();
-            $(".s3").show();
-            $(".s4").show();
-        }
-        if( strength == 5 ) {
-            $(".s1").show();
-            $(".s2").show();
-            $(".s3").show();
-            $(".s4").show();
-            $(".s5").show();
-        }
-        if( strength == 6 ) {
-            $(".s1").show();
-            $(".s2").show();
-            $(".s3").show();
-            $(".s4").show();
-            $(".s5").show();
-            $(".s6").show();
-        }
-        if( strength == 7 ) {
-            $(".s1").show();
-            $(".s2").show();
-            $(".s3").show();
-            $(".s4").show();
-            $(".s5").show();
-            $(".s6").show();
-            $(".s7").show();
-        }
-        if( strength == 8 ) {
-            $(".s1").show();
-            $(".s2").show();
-            $(".s3").show();
-            $(".s4").show();
-            $(".s5").show();
-            $(".s6").show();
-            $(".s7").show();
-            $(".s8").show();
-        }
-        if( strength == 9 ) {
-            $(".s1").show();
-            $(".s2").show();
-            $(".s3").show();
-            $(".s4").show();
-            $(".s5").show();
-            $(".s6").show();
-            $(".s7").show();
-            $(".s8").show();
-            $(".s9").show();
-        }
-        if( strength == 10 ) {
-            $(".s1").show();
-            $(".s2").show();
-            $(".s3").show();
-            $(".s4").show();
-            $(".s5").show();
-            $(".s6").show();
-            $(".s7").show();
-            $(".s8").show();
-            $(".s9").show();
-            $(".s10").show();
-        }
+        var j;
+        if (strength ) {
+            for (j = 1; j <= strength; j++) {
+              $(".s"+j).show();
+             }
+          }
     });
 });
